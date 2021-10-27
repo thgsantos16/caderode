@@ -1,0 +1,272 @@
+// Fonts
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-Black.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-BlackItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-ExtraBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-DemiBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-DemiBold.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-Heavy.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-HeavyItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-Light.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-Italic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-LightItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-ExtraBold.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-MediumItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-Medium.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00-Ultra';
+    src: url('../assets/fonts/ReganAltW00-Ultra.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-Ultra.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-Regular.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00-UltraItalic';
+    src: url('../assets/fonts/ReganAltW00-UltraItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-UltraItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00-UltraLightIt';
+    src: url('../assets/fonts/ReganAltW00-UltraLightIt.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-UltraLightIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-BlackItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-Black.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-Bold.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ReganAltW00';
+    src: url('../assets/fonts/ReganAltW00-UltraLight.woff2') format('woff2'),
+        url('../assets/fonts/ReganAltW00-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-BlackItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-Black.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-Bold.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-DemiBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-Bold.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-BoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regan Alt';
+    src: url('../assets/fonts/ReganAlt-DemiBoldItalic.woff2') format('woff2'),
+        url('../assets/fonts/ReganAlt-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+

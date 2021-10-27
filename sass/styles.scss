@@ -1,0 +1,413 @@
+// Main styles
+
+@import 'fonts';
+
+body {
+    font-family: 'ReganAltW00', sans-serif;
+    font-weight: 600;
+    color: #434040;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    &.lowercase {
+        text-transform: lowercase;
+    }
+
+    &.heavy {
+        font-weight: 900;
+        font-size: 72px;
+    }
+}
+
+#page {
+    background: top/cover repeat-y url(../assets/bg.jpg);
+}
+
+header {
+    background-color: #00000099;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+    .row {
+        height: 106px;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    #logo {
+        width: 150px;
+        height: 180px;
+        display: inline-block;
+        background: center bottom url(../assets/logo.jpg);
+        vertical-align: top;
+    }
+    
+    .header-links {
+        margin-top: -70px;
+
+        .header-link {
+            transition: all 0.43s;
+            display: inline-block;
+            margin: 0 16px;
+            font-size: 14px;
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover {
+                color: #c7d43c;
+            }
+        }
+    }
+}
+
+#footer {
+    background: #dedede;
+    padding: 5vh 5%;
+
+    .footer-notes {
+        font-size: 11px;
+    }
+
+    .newsletter {
+        .input-newsletter {
+            padding: 12px 88px 12px 16px;
+            background: transparent;
+            border: 1px solid #434040;
+            width: 20vw;
+            min-width: 304px;
+        }
+
+        .button-newsletter {
+            background: #434040;
+            border: none;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-left: -88px;
+            margin-right: 25px;
+            transition: all 0.43s;
+
+            &:hover {
+                background-color: #c7d43c;
+                color: #434040;
+            }
+        }
+    }
+
+    .social-media {
+        a {
+            text-decoration: none;
+            transition: all 0.43s;
+            opacity: 0.7;
+            margin-left: 12px;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    .footer-links {
+        .footer-link {
+            a {
+                transition: all 0.43s;
+                color: #434040;
+                text-decoration: none;
+
+                &:hover {
+                    color: #9da821;
+                }
+            }
+
+            .main {
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+
+            .sub {
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.container-fluid.w-90 {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10vh 0;
+}
+
+#hero {
+    height: 70vh;
+    background: url(../assets/bg-hero.jpg) center/cover;
+}
+
+#smallhero {
+    height: 304px;
+    background: url(../assets/bg-onde-comprar.jpg) center/cover;
+
+    .small-hero-inner {
+        padding: 142px calc(10% + 150px) 0;
+        color: #FFF;
+
+        h2 {
+            text-transform: lowercase;
+            font-size: 28px;
+            padding-left: 34px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 34px;
+            padding-left: 34px;
+        }
+
+        .eyebrow {
+            width: 88px;
+            height: 5px;
+            background-color: #c7d43c;
+            margin: 22px 0 16px;
+        }
+    }
+}
+
+#stripe {
+    background-color: #313131;
+    font-size: 0;
+    text-align: center;
+
+    .stripe-item {
+        text-align: left;
+        font-size: 14px;
+        width: 20vw;
+        display: inline-block;
+        height: 160px;
+        transform: skew(-20deg);
+        vertical-align: top;
+        background: #555;
+        transition: all 0.43s;
+
+        &:hover {
+            background: #110d3c;
+            color: #FFF;
+        }
+        
+        .unskew {
+            transform: skew(20deg);
+        }
+
+        .stripe-item-subtitle {
+            text-transform: uppercase;
+        }
+
+        .stripe-item-title {
+            text-transform: lowercase;
+        }
+    }
+}
+
+.form-control:not([type="checkbox"]) {
+    border-radius: 16px;
+    border: 1px solid #444;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+}
+
+button {
+    transition: all 0.43s !important;
+    
+    &.form-work-with-us {
+        background-color: #434040;
+        color: #ffffff;
+        border: none !important;
+        font-size: 20px;
+
+        &:hover {
+            background-color: #c7d43c;
+            color: #434040;
+        }
+    }
+}
+
+textarea.form-control {
+    min-height: 205px;
+}
+
+.stores {
+    .store {
+        margin-top: 52px;
+        margin-bottom: 88px;
+
+        .store-skew {
+            transform: skew(-10deg);
+            margin: 0 auto 25px;
+            overflow: hidden;
+            height: 400px;
+            width: 90%;
+
+            .store-image {
+                transform: skew(10deg);
+                min-height: 500px;
+                min-width: 25vw;
+                margin: -50px 0 0 -2.5vw;
+                background: center/cover;
+                padding-top: 390px;
+
+                .store-name {
+                    color: #FFFFFF;
+                    text-transform: uppercase;
+                    margin-left: -3.4vw;
+                    font-size: 20px;
+                    text-shadow: 2px 2px 5px #00000044;
+                }
+            }
+        }
+
+        .store-content {
+            p {
+                margin: 2px 0;
+            }
+        }
+    }
+}
+
+.case {
+    height: 70vh;
+    margin-bottom: 52px;
+    background: center/cover url(../assets/case.jpg);
+
+    .case-inner {
+        color: #ffffff;
+        width: 40%;
+        padding-top: 30vh;
+
+        h3 {
+            text-transform: lowercase;
+            margin-left: 61px;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            margin-left: 61px;
+        }
+
+        .case-architect {
+            margin-left: 61px;
+            color: #c7d43c;
+            margin-bottom: 25px;  
+        }
+
+        .case-button {
+            margin-left: 61px;
+            background: #ffffff;
+            border: none;
+            border-radius: 16px;
+            padding: 12px 22px 14px;
+            font-weight: 700;
+            transition: all 0.43s;
+
+            &:hover {
+                background-color: #c7d43c;
+            }
+        }
+
+        .eyebrow {
+            width: 88px;
+            height: 5px;
+            background-color: #c7d43c;
+            margin: 22px 0 16px;
+        }
+    }
+}
+
+.more-cases {
+    margin-top: 52px;
+
+    .more-cases-item {
+        margin-bottom: 52px;
+
+        .more-cases-skew {
+            transform: skew(-7deg);
+            height: 52vh;
+            overflow: hidden;
+            
+            .more-cases-image {
+                transition: all 0.43s;
+                transform: skew(7deg);
+                width: 124%;
+                margin-left: -12%;
+                height: 58vh;
+                margin-top: -3vh;
+                background-color: #434040;
+                cursor: pointer;
+                
+
+                &:hover {
+                    background: #110d3c;
+                }
+            }
+        }
+    }
+}
+
+
+.parallelogram {
+    transform: skew(-7deg);
+    height: 52vh;
+    overflow: hidden;
+    
+    .image {
+        transition: all 0.43s;
+        transform: skew(7deg);
+        width: 124%;
+        margin-left: -12%;
+        height: 58vh;
+        margin-top: -3vh;
+        background-color: #434040;
+        cursor: pointer;
+        
+
+        &:hover {
+            background: #110d3c;
+        }
+    }
+
+    &.h-70 {
+        height: 70vh;
+
+        .image {
+            height: 76vh;
+        }
+    }
+
+    &.h-50 {
+        height: 50vh !important;
+
+        .image {
+            height: 56vh;
+        }
+    }
+}
+
+
+
+// Custom metrics
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+
+.w-90 {
+    width: 90% !important;
+}

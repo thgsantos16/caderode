@@ -1,0 +1,619 @@
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-Black.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-BlackItalic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-ExtraBoldItalic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-BoldItalic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-DemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-DemiBold.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-Heavy.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-HeavyItalic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-HeavyItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-Light.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-Italic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-LightItalic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-ExtraBold.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-MediumItalic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-Medium.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00-Ultra';
+  src: url("../assets/fonts/ReganAltW00-Ultra.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-Ultra.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-Regular.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00-UltraItalic';
+  src: url("../assets/fonts/ReganAltW00-UltraItalic.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-UltraItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00-UltraLightIt';
+  src: url("../assets/fonts/ReganAltW00-UltraLightIt.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-UltraLightIt.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-BlackItalic.woff2") format("woff2"), url("../assets/fonts/ReganAlt-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-Black.woff2") format("woff2"), url("../assets/fonts/ReganAlt-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-Bold.woff2") format("woff2"), url("../assets/fonts/ReganAlt-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ReganAltW00';
+  src: url("../assets/fonts/ReganAltW00-UltraLight.woff2") format("woff2"), url("../assets/fonts/ReganAltW00-UltraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-BlackItalic.woff2") format("woff2"), url("../assets/fonts/ReganAlt-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-Black.woff2") format("woff2"), url("../assets/fonts/ReganAlt-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-BoldItalic.woff2") format("woff2"), url("../assets/fonts/ReganAlt-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-Bold.woff2") format("woff2"), url("../assets/fonts/ReganAlt-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-DemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/ReganAlt-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-Bold.woff2") format("woff2"), url("../assets/fonts/ReganAlt-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-BoldItalic.woff2") format("woff2"), url("../assets/fonts/ReganAlt-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Regan Alt';
+  src: url("../assets/fonts/ReganAlt-DemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/ReganAlt-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+/* line 5, ../sass/styles.scss */
+body {
+  font-family: 'ReganAltW00', sans-serif;
+  font-weight: 600;
+  color: #434040;
+}
+
+/* line 12, ../sass/styles.scss */
+h1.lowercase, h2.lowercase, h3.lowercase, h4.lowercase, h5.lowercase, h6.lowercase {
+  text-transform: lowercase;
+}
+/* line 16, ../sass/styles.scss */
+h1.heavy, h2.heavy, h3.heavy, h4.heavy, h5.heavy, h6.heavy {
+  font-weight: 900;
+  font-size: 72px;
+}
+
+/* line 22, ../sass/styles.scss */
+#page {
+  background: top/cover repeat-y url(../assets/bg.jpg);
+}
+
+/* line 26, ../sass/styles.scss */
+header {
+  background-color: #00000099;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+/* line 33, ../sass/styles.scss */
+header .row {
+  height: 106px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+/* line 39, ../sass/styles.scss */
+header #logo {
+  width: 150px;
+  height: 180px;
+  display: inline-block;
+  background: center bottom url(../assets/logo.jpg);
+  vertical-align: top;
+}
+/* line 47, ../sass/styles.scss */
+header .header-links {
+  margin-top: -70px;
+}
+/* line 50, ../sass/styles.scss */
+header .header-links .header-link {
+  transition: all 0.43s;
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 60, ../sass/styles.scss */
+header .header-links .header-link:hover {
+  color: #c7d43c;
+}
+
+/* line 67, ../sass/styles.scss */
+#footer {
+  background: #dedede;
+  padding: 5vh 5%;
+}
+/* line 71, ../sass/styles.scss */
+#footer .footer-notes {
+  font-size: 11px;
+}
+/* line 76, ../sass/styles.scss */
+#footer .newsletter .input-newsletter {
+  padding: 12px 88px 12px 16px;
+  background: transparent;
+  border: 1px solid #434040;
+  width: 20vw;
+  min-width: 304px;
+}
+/* line 84, ../sass/styles.scss */
+#footer .newsletter .button-newsletter {
+  background: #434040;
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: -88px;
+  margin-right: 25px;
+  transition: all 0.43s;
+}
+/* line 93, ../sass/styles.scss */
+#footer .newsletter .button-newsletter:hover {
+  background-color: #c7d43c;
+  color: #434040;
+}
+/* line 101, ../sass/styles.scss */
+#footer .social-media a {
+  text-decoration: none;
+  transition: all 0.43s;
+  opacity: 0.7;
+  margin-left: 12px;
+}
+/* line 107, ../sass/styles.scss */
+#footer .social-media a:hover {
+  opacity: 1;
+}
+/* line 115, ../sass/styles.scss */
+#footer .footer-links .footer-link a {
+  transition: all 0.43s;
+  color: #434040;
+  text-decoration: none;
+}
+/* line 120, ../sass/styles.scss */
+#footer .footer-links .footer-link a:hover {
+  color: #9da821;
+}
+/* line 125, ../sass/styles.scss */
+#footer .footer-links .footer-link .main {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/* line 130, ../sass/styles.scss */
+#footer .footer-links .footer-link .sub {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 138, ../sass/styles.scss */
+.container-fluid.w-90 {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10vh 0;
+}
+
+/* line 144, ../sass/styles.scss */
+#hero {
+  height: 70vh;
+  background: url(../assets/bg-hero.jpg) center/cover;
+}
+
+/* line 149, ../sass/styles.scss */
+#smallhero {
+  height: 304px;
+  background: url(../assets/bg-onde-comprar.jpg) center/cover;
+}
+/* line 153, ../sass/styles.scss */
+#smallhero .small-hero-inner {
+  padding: 142px calc(10% + 150px) 0;
+  color: #FFF;
+}
+/* line 157, ../sass/styles.scss */
+#smallhero .small-hero-inner h2 {
+  text-transform: lowercase;
+  font-size: 28px;
+  padding-left: 34px;
+}
+/* line 163, ../sass/styles.scss */
+#smallhero .small-hero-inner h1 {
+  text-transform: uppercase;
+  font-size: 34px;
+  padding-left: 34px;
+}
+/* line 169, ../sass/styles.scss */
+#smallhero .small-hero-inner .eyebrow {
+  width: 88px;
+  height: 5px;
+  background-color: #c7d43c;
+  margin: 22px 0 16px;
+}
+
+/* line 178, ../sass/styles.scss */
+#stripe {
+  background-color: #313131;
+  font-size: 0;
+  text-align: center;
+}
+/* line 183, ../sass/styles.scss */
+#stripe .stripe-item {
+  text-align: left;
+  font-size: 14px;
+  width: 20vw;
+  display: inline-block;
+  height: 160px;
+  transform: skew(-20deg);
+  vertical-align: top;
+  background: #555;
+  transition: all 0.43s;
+}
+/* line 194, ../sass/styles.scss */
+#stripe .stripe-item:hover {
+  background: #110d3c;
+  color: #FFF;
+}
+/* line 199, ../sass/styles.scss */
+#stripe .stripe-item .unskew {
+  transform: skew(20deg);
+}
+/* line 203, ../sass/styles.scss */
+#stripe .stripe-item .stripe-item-subtitle {
+  text-transform: uppercase;
+}
+/* line 207, ../sass/styles.scss */
+#stripe .stripe-item .stripe-item-title {
+  text-transform: lowercase;
+}
+
+/* line 213, ../sass/styles.scss */
+.form-control:not([type="checkbox"]) {
+  border-radius: 16px;
+  border: 1px solid #444;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+}
+
+/* line 220, ../sass/styles.scss */
+button {
+  transition: all 0.43s !important;
+}
+/* line 223, ../sass/styles.scss */
+button.form-work-with-us {
+  background-color: #434040;
+  color: #ffffff;
+  border: none !important;
+  font-size: 20px;
+}
+/* line 229, ../sass/styles.scss */
+button.form-work-with-us:hover {
+  background-color: #c7d43c;
+  color: #434040;
+}
+
+/* line 236, ../sass/styles.scss */
+textarea.form-control {
+  min-height: 205px;
+}
+
+/* line 241, ../sass/styles.scss */
+.stores .store {
+  margin-top: 52px;
+  margin-bottom: 88px;
+}
+/* line 245, ../sass/styles.scss */
+.stores .store .store-skew {
+  transform: skew(-10deg);
+  margin: 0 auto 25px;
+  overflow: hidden;
+  height: 400px;
+  width: 90%;
+}
+/* line 252, ../sass/styles.scss */
+.stores .store .store-skew .store-image {
+  transform: skew(10deg);
+  min-height: 500px;
+  min-width: 25vw;
+  margin: -50px 0 0 -2.5vw;
+  background: center/cover;
+  padding-top: 390px;
+}
+/* line 260, ../sass/styles.scss */
+.stores .store .store-skew .store-image .store-name {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-left: -3.4vw;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px #00000044;
+}
+/* line 271, ../sass/styles.scss */
+.stores .store .store-content p {
+  margin: 2px 0;
+}
+
+/* line 278, ../sass/styles.scss */
+.case {
+  height: 70vh;
+  margin-bottom: 52px;
+  background: center/cover url(../assets/case.jpg);
+}
+/* line 283, ../sass/styles.scss */
+.case .case-inner {
+  color: #ffffff;
+  width: 40%;
+  padding-top: 30vh;
+}
+/* line 288, ../sass/styles.scss */
+.case .case-inner h3 {
+  text-transform: lowercase;
+  margin-left: 61px;
+}
+/* line 293, ../sass/styles.scss */
+.case .case-inner h2 {
+  text-transform: uppercase;
+  margin-left: 61px;
+}
+/* line 298, ../sass/styles.scss */
+.case .case-inner .case-architect {
+  margin-left: 61px;
+  color: #c7d43c;
+  margin-bottom: 25px;
+}
+/* line 304, ../sass/styles.scss */
+.case .case-inner .case-button {
+  margin-left: 61px;
+  background: #ffffff;
+  border: none;
+  border-radius: 16px;
+  padding: 12px 22px 14px;
+  font-weight: 700;
+  transition: all 0.43s;
+}
+/* line 313, ../sass/styles.scss */
+.case .case-inner .case-button:hover {
+  background-color: #c7d43c;
+}
+/* line 318, ../sass/styles.scss */
+.case .case-inner .eyebrow {
+  width: 88px;
+  height: 5px;
+  background-color: #c7d43c;
+  margin: 22px 0 16px;
+}
+
+/* line 327, ../sass/styles.scss */
+.more-cases {
+  margin-top: 52px;
+}
+/* line 330, ../sass/styles.scss */
+.more-cases .more-cases-item {
+  margin-bottom: 52px;
+}
+/* line 333, ../sass/styles.scss */
+.more-cases .more-cases-item .more-cases-skew {
+  transform: skew(-7deg);
+  height: 52vh;
+  overflow: hidden;
+}
+/* line 338, ../sass/styles.scss */
+.more-cases .more-cases-item .more-cases-skew .more-cases-image {
+  transition: all 0.43s;
+  transform: skew(7deg);
+  width: 124%;
+  margin-left: -12%;
+  height: 58vh;
+  margin-top: -3vh;
+  background-color: #434040;
+  cursor: pointer;
+}
+/* line 349, ../sass/styles.scss */
+.more-cases .more-cases-item .more-cases-skew .more-cases-image:hover {
+  background: #110d3c;
+}
+
+/* line 358, ../sass/styles.scss */
+.parallelogram {
+  transform: skew(-7deg);
+  height: 52vh;
+  overflow: hidden;
+}
+/* line 363, ../sass/styles.scss */
+.parallelogram .image {
+  transition: all 0.43s;
+  transform: skew(7deg);
+  width: 124%;
+  margin-left: -12%;
+  height: 58vh;
+  margin-top: -3vh;
+  background-color: #434040;
+  cursor: pointer;
+}
+/* line 374, ../sass/styles.scss */
+.parallelogram .image:hover {
+  background: #110d3c;
+}
+/* line 379, ../sass/styles.scss */
+.parallelogram.h-70 {
+  height: 70vh;
+}
+/* line 382, ../sass/styles.scss */
+.parallelogram.h-70 .image {
+  height: 76vh;
+}
+/* line 387, ../sass/styles.scss */
+.parallelogram.h-50 {
+  height: 50vh !important;
+}
+/* line 390, ../sass/styles.scss */
+.parallelogram.h-50 .image {
+  height: 56vh;
+}
+
+/* line 399, ../sass/styles.scss */
+.mt-100 {
+  margin-top: 100px !important;
+}
+
+/* line 403, ../sass/styles.scss */
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+/* line 407, ../sass/styles.scss */
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+/* line 411, ../sass/styles.scss */
+.w-90 {
+  width: 90% !important;
+}
