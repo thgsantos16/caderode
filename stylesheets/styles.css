@@ -560,13 +560,48 @@ textarea.form-control {
   background: #110d3c;
 }
 
-/* line 358, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
+.glider {
+  padding-top: 7vh;
+}
+/* line 360, ../sass/styles.scss */
+.glider .first-line {
+  padding-left: 8vw;
+}
+/* line 363, ../sass/styles.scss */
+.glider .first-line .glider-right {
+  padding-left: 4vw;
+  padding-top: 14vh;
+}
+/* line 367, ../sass/styles.scss */
+.glider .first-line .glider-right h3 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+/* line 376, ../sass/styles.scss */
+.certifications .certification {
+  margin-bottom: 52px;
+}
+/* line 379, ../sass/styles.scss */
+.certifications .certification .certification-image {
+  width: 100%;
+  height: 200px;
+  background: bottom left no-repeat;
+}
+
+/* line 388, ../sass/styles.scss */
+.glider-arrows .glider-arrow {
+  margin-top: 22vh;
+}
+
+/* line 393, ../sass/styles.scss */
 .parallelogram {
   transform: skew(-7deg);
   height: 52vh;
   overflow: hidden;
 }
-/* line 363, ../sass/styles.scss */
+/* line 398, ../sass/styles.scss */
 .parallelogram .image {
   transition: all 0.43s;
   transform: skew(7deg);
@@ -577,43 +612,43 @@ textarea.form-control {
   background-color: #434040;
   cursor: pointer;
 }
-/* line 374, ../sass/styles.scss */
+/* line 409, ../sass/styles.scss */
 .parallelogram .image:hover {
   background: #110d3c;
 }
-/* line 379, ../sass/styles.scss */
+/* line 414, ../sass/styles.scss */
 .parallelogram.h-70 {
   height: 70vh;
 }
-/* line 382, ../sass/styles.scss */
+/* line 417, ../sass/styles.scss */
 .parallelogram.h-70 .image {
   height: 76vh;
 }
-/* line 387, ../sass/styles.scss */
+/* line 422, ../sass/styles.scss */
 .parallelogram.h-50 {
   height: 50vh !important;
 }
-/* line 390, ../sass/styles.scss */
+/* line 425, ../sass/styles.scss */
 .parallelogram.h-50 .image {
   height: 56vh;
 }
 
-/* line 399, ../sass/styles.scss */
+/* line 434, ../sass/styles.scss */
 .mt-100 {
   margin-top: 100px !important;
 }
 
-/* line 403, ../sass/styles.scss */
+/* line 438, ../sass/styles.scss */
 .mt-50 {
   margin-top: 50px !important;
 }
 
-/* line 407, ../sass/styles.scss */
+/* line 442, ../sass/styles.scss */
 .mb-50 {
   margin-bottom: 50px !important;
 }
 
-/* line 411, ../sass/styles.scss */
+/* line 446, ../sass/styles.scss */
 .w-90 {
   width: 90% !important;
 }
