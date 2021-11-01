@@ -561,47 +561,65 @@ textarea.form-control {
 }
 
 /* line 357, ../sass/styles.scss */
+.home-item {
+  margin-bottom: 52px;
+}
+
+/* line 362, ../sass/styles.scss */
+.product-categories .product-category {
+  color: #434040;
+  text-decoration: none;
+  transition: all 0.43s;
+  display: inline-block;
+  padding: 0 12px;
+}
+/* line 369, ../sass/styles.scss */
+.product-categories .product-category:hover {
+  color: #c7d43c;
+}
+
+/* line 375, ../sass/styles.scss */
 .glider {
   padding-top: 7vh;
 }
-/* line 360, ../sass/styles.scss */
+/* line 378, ../sass/styles.scss */
 .glider .first-line {
   padding-left: 8vw;
 }
-/* line 363, ../sass/styles.scss */
+/* line 381, ../sass/styles.scss */
 .glider .first-line .glider-right {
   padding-left: 4vw;
   padding-top: 14vh;
 }
-/* line 367, ../sass/styles.scss */
+/* line 385, ../sass/styles.scss */
 .glider .first-line .glider-right h3 {
   font-size: 48px;
   font-weight: 900;
 }
 
-/* line 376, ../sass/styles.scss */
+/* line 394, ../sass/styles.scss */
 .certifications .certification {
   margin-bottom: 52px;
 }
-/* line 379, ../sass/styles.scss */
+/* line 397, ../sass/styles.scss */
 .certifications .certification .certification-image {
   width: 100%;
   height: 200px;
   background: bottom left no-repeat;
 }
 
-/* line 388, ../sass/styles.scss */
+/* line 406, ../sass/styles.scss */
 .glider-arrows .glider-arrow {
   margin-top: 22vh;
 }
 
-/* line 393, ../sass/styles.scss */
+/* line 411, ../sass/styles.scss */
 .parallelogram {
   transform: skew(-7deg);
   height: 52vh;
   overflow: hidden;
 }
-/* line 398, ../sass/styles.scss */
+/* line 416, ../sass/styles.scss */
 .parallelogram .image {
   transition: all 0.43s;
   transform: skew(7deg);
@@ -612,43 +630,97 @@ textarea.form-control {
   background-color: #434040;
   cursor: pointer;
 }
-/* line 409, ../sass/styles.scss */
+/* line 426, ../sass/styles.scss */
+.parallelogram .image.image-chair {
+  background: url(../assets/bg-chair.png) no-repeat bottom/contain;
+}
+/* line 429, ../sass/styles.scss */
+.parallelogram .image.image-chair:hover {
+  background: url(../assets/bg-chair.png) no-repeat bottom/contain;
+}
+/* line 434, ../sass/styles.scss */
 .parallelogram .image:hover {
   background: #110d3c;
 }
-/* line 414, ../sass/styles.scss */
+/* line 439, ../sass/styles.scss */
 .parallelogram.h-70 {
   height: 70vh;
 }
-/* line 417, ../sass/styles.scss */
+/* line 442, ../sass/styles.scss */
 .parallelogram.h-70 .image {
   height: 76vh;
 }
-/* line 422, ../sass/styles.scss */
+/* line 447, ../sass/styles.scss */
 .parallelogram.h-50 {
   height: 50vh !important;
 }
-/* line 425, ../sass/styles.scss */
+/* line 450, ../sass/styles.scss */
 .parallelogram.h-50 .image {
   height: 56vh;
 }
+/* line 455, ../sass/styles.scss */
+.parallelogram.h-40 {
+  height: 40vh !important;
+}
+/* line 458, ../sass/styles.scss */
+.parallelogram.h-40 .image {
+  height: 46vh;
+}
+/* line 463, ../sass/styles.scss */
+.parallelogram.h-30 {
+  height: 30vh !important;
+}
+/* line 466, ../sass/styles.scss */
+.parallelogram.h-30 .image {
+  height: 36vh;
+}
 
-/* line 434, ../sass/styles.scss */
+/* line 472, ../sass/styles.scss */
+.blog-text {
+  font-size: 22px;
+}
+
+/* line 476, ../sass/styles.scss */
+.product-parallelograms {
+  margin-top: 70px;
+  font-size: 0;
+}
+/* line 480, ../sass/styles.scss */
+.product-parallelograms .product-parallelogram {
+  display: inline-block;
+  width: 26%;
+  padding: 20px;
+}
+/* line 485, ../sass/styles.scss */
+.product-parallelograms .product-parallelogram.big {
+  width: 48%;
+}
+/* line 489, ../sass/styles.scss */
+.product-parallelograms .product-parallelogram .green-line {
+  height: 8px;
+  width: 80%;
+  background-color: #c7d43c;
+  margin: -4px 0 -4px 3vw;
+  z-index: 999;
+  position: relative;
+}
+
+/* line 503, ../sass/styles.scss */
 .mt-100 {
   margin-top: 100px !important;
 }
 
-/* line 438, ../sass/styles.scss */
+/* line 507, ../sass/styles.scss */
 .mt-50 {
   margin-top: 50px !important;
 }
 
-/* line 442, ../sass/styles.scss */
+/* line 511, ../sass/styles.scss */
 .mb-50 {
   margin-bottom: 50px !important;
 }
 
-/* line 446, ../sass/styles.scss */
+/* line 515, ../sass/styles.scss */
 .w-90 {
   width: 90% !important;
 }

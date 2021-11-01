@@ -354,6 +354,24 @@ textarea.form-control {
     }
 }
 
+.home-item {
+    margin-bottom: 52px;
+}
+
+.product-categories {
+    .product-category {
+        color: #434040;
+        text-decoration: none;
+        transition: all 0.43s;
+        display: inline-block;
+        padding: 0 12px;
+
+        &:hover {
+            color: #c7d43c;
+        }
+    }
+}
+
 .glider {
     padding-top: 7vh;
 
@@ -405,6 +423,13 @@ textarea.form-control {
         background-color: #434040;
         cursor: pointer;
         
+        &.image-chair {
+            background: url(../assets/bg-chair.png) no-repeat bottom/contain;
+
+            &:hover {
+                background: url(../assets/bg-chair.png) no-repeat bottom/contain;
+            }
+        }
 
         &:hover {
             background: #110d3c;
@@ -424,6 +449,50 @@ textarea.form-control {
 
         .image {
             height: 56vh;
+        }
+    }
+
+    &.h-40 {
+        height: 40vh !important;
+
+        .image {
+            height: 46vh;
+        }
+    }
+
+    &.h-30 {
+        height: 30vh !important;
+
+        .image {
+            height: 36vh;
+        }
+    }
+}
+
+.blog-text {
+    font-size: 22px;
+}
+
+.product-parallelograms {
+    margin-top: 70px;
+    font-size: 0;
+
+    .product-parallelogram {
+        display: inline-block;
+        width: 26%;
+        padding: 20px;
+
+        &.big {
+            width: 48%;
+        }
+
+        .green-line {
+            height: 8px;
+            width: 80%;
+            background-color: #c7d43c;
+            margin: -4px 0 -4px 3vw;
+            z-index: 999;
+            position: relative;
         }
     }
 }

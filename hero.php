@@ -42,6 +42,10 @@ class Hero {
             "trabalhe-conosco" => [
                 "h1" => "Trabalhe conosco",
                 "h2" => "quer fazer parte deste time?",
+            ],
+            "home" => [
+                "h1" => "Trabalhe conosco",
+                "h2" => "quer fazer parte deste time?",
             ]
         ];
 
